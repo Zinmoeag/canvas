@@ -1,0 +1,68 @@
+*{
+	margin:0; padding: 0;
+	border:none; outline: none;
+	font-size: 16px;
+}
+body{
+	display: flex; align-items: center; justify-content: center;
+}
+
+canvas{
+	margin: auto;
+	margin-top: 2rem;
+	background: white;
+	border-radius: 1rem;
+	border: 0.5rem solid pink;
+	box-shadow: 5px 5px 6px rgb(97,68,146,0.5); 
+}
+
+.tool-box{
+	margin-top: 1rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center; justify-content: space-between;
+}
+
+.color-container{
+	display: flex;
+	gap:0.8rem;
+	flex-direction: row;
+}
+
+.color-box{
+	width: 2rem;
+	height: 2rem;
+	border-radius: 50%;
+	border: 0.2rem solid white;
+	box-shadow: 3px 3px 5px rgb(97,68,146,0.5);
+	cursor: pointer;
+}
+
+.color-box.active{
+	
+	border: 0.2rem solid rgba(97,68,146,0.8);
+	box-shadow: inset 3px 3px 8px rgba(97,68,146,0.8);
+
+}
+
+.color-picker{
+	width: 2rem; height: 2rem;
+	margin-left: 
+}
+
+.brush{
+	display: flex; flex-direction: row; gap:1rem;
+}
+
+.brush-size-display{
+	font-size: 1.5rem;
+}
+
+@media screen and (max-width: 450px){
+ 
+
+	body{
+		background: red;
+	}
+
+}
